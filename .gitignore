@@ -1,0 +1,23 @@
+build
+.gradle
+.idea
+reports
+out/
+log
+classes/production
+*.iml
+application-secret*
+node_modules
+.classpath
+.project
+.settings
+/bin/
+
+# Terraform state files
+*.tfstate*
+
+# New Relic JARs
+newrelic/newrelic-agent*jar
+
+# OS X finder custom settings files
+.DS_Store
